@@ -72,3 +72,13 @@ Align Items property can have the following values:
 - flex-start- Will be at the starting of the flex container.
 - center- Will be at the center of the avilable height.
 - flex-end- Will be at the ending point of the available height.
+
+  ### Flex Wrap
+  The flex-wrap property arranges the flex items in multiple lines.
+  Flex Wrap property can have the following values:
+
+- nowrap(default)
+- wrap
+- wrap-reverse and many more..
+### _Flex Item can also be a Flex Container._
+
