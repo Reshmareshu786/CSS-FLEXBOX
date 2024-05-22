@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/robotics-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.robotic-heading {
+    color: #1e3a8a;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.robotic-content {
+    color: #475569;
+    font-family: "Roboto";
+    font-size: 15px;
+    max-width: 500px;
+}
+
+.robotic-image {
+    width: 100px;
+    margin-top: 30px;
+}
